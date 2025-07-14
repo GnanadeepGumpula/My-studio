@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
+import logo from "../public/Gnanadeepstudio Logo.png";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Gnanadeep Gumpula studio",
     images: [
       {
-        url: "/Gnanadeepstudio Logo.png",
+        url: logo.src,
         width: 1200,
         height: 630,
         alt: "Gnanadeep Gumpula Studio"
